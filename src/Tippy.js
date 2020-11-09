@@ -13,6 +13,7 @@ export default function TippyGenerator(tippy) {
   function Tippy({
     children,
     content,
+    context,
     visible,
     singleton,
     render,
